@@ -1,4 +1,4 @@
-	    -- Q.1 Find the top 3 highest paid employees in each department 
+	        -- Q.1 Find the top 3 highest paid employees in each department 
 					
 		-- Q.2 Find the average salary of employees hired in the past 5 years
 				
