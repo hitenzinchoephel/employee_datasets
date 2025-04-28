@@ -131,6 +131,5 @@ select * from cte_salary_rank where rn = 2
 
 	select percentile_cont(0.5) within group(order by salary) as median_salary from employee
 ```
-
-
-####                                              End of project 
+     
+### End of project 
