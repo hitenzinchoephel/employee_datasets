@@ -27,14 +27,13 @@ This Employee dataset mini project involes solving basic to intermediate busines
 
 ```sql
     With cte as (
-					select
-					emp_id,
-					name,
-					depart,
-					salary,
-					dense_rank() over (partition by department order by salary desc) AS RNK
-				from employee
-			)
-		select * from cte where rnk<=3;
+	select
+		emp_id,
+		name,
+		depart,
+		salary,
+		dense_rank() over (partition by department order by salary desc) AS RNK
+        from employee)
+    select * from cte where rnk<=3;
 ```
 
