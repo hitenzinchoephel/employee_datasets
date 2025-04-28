@@ -131,5 +131,10 @@ select * from cte_salary_rank where rn = 2
 
 	select percentile_cont(0.5) within group(order by salary) as median_salary from employee
 ```
+
+
+#### Author Note: 
+This employee datasets mini project is part of building my portfolio and demonstrating the SQL skills essential for data analyst roles. 
+
      
 ### End of project 
