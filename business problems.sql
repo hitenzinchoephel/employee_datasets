@@ -20,6 +20,9 @@
 
 		-- Q.11 How many employees joined in each year?
 
+		-- Q.12 Find mean and median salary of employees
+
+
 		
 
 		
